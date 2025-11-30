@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Francia e Italia 2025 - TravelGo</title>
+    <link rel="stylesheet" href="Estilos/estilos-detalle.css">
+</head>
+<body>
+    <header>
+        <h1>TravelGo</h1>
+        <form class="search-box">
+             <input type="text" placeholder="Busca aquí tu destino">
+        </form>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="">Francia</a>
+        <a href="">Italia</a>
+        <a href="">Suiza</a>
+        <a href="">España</a>
+        <a href="">Portugal</a>
+    </nav>
+
+    <main class="contenido">
+        <section class="hero">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Tour Francia e Italia">
+            <div class="hero-contenido">
+                <h2>TOUR A FRANCIA E ITALIA 2025</h2>
+                <p class="hero-subtitulo">FRANCIA - SUIZA - ITALIA - PARIS - ROMA - VENECIA</p>
+                <p class="hero-descripcion">PAQUETE TURÍSTICO PARIS Y ITALIA 9 DÍAS</p>
+                
+                <div class="hero-info">
+                    <div class="info-item">
+                        <span>Países: Francia, Italia, Suiza</span>
+                    </div>
+                    <div class="info-item">
+                        <span>Duración: 9 días</span>
+                    </div>
+                    <div class="info-item">
+                        <span>Grupo: 15-25 personas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="descripcion">
+            <h3>Descripción del Tour</h3>
+            <p>Vive los destinos más turísticos que representan la esencia del continente. Desde la Torre Eiffel, Versalles o el artístico barrio de Montmartre hasta las bellas ciudades italianas con sus respectivos monumentos.</p>
+            <p>Disfrute de todo el itinerario. Esta experiencia cultural es un viaje por países europeos, no solo por las vastas panorámicas de las ciudades, sino también por la oportunidad que le ofrecemos de pasear en barco por el río Sena de Francia y en góndola por los populares canales venecianos de Italia.</p>
+        </section>
+
+        <section class="itinerario">
+            <h3>Itinerario del Tour</h3>
+            
+            <div class="dia">
+                <span class="dia-numero">1</span>
+                <span class="dia-titulo">PARIS</span>
+                <p class="dia-descripcion">Llegada a París, traslado al hotel y tiempo libre. Información en recepción del hotel.</p>
+            </div>
+            
+            <div class="dia">
+                <span class="dia-numero">2</span>
+                <span class="dia-titulo">PARIS</span>
+                <p class="dia-descripcion">Visita panorámica de París, museo del Louvre y almacenes Benha. Paseo opcional por el río Sena.</p>
+            </div>
+            
+            <div class="dia">
+                <span class="dia-numero">3</span>
+                <span class="dia-titulo">PARIS</span>
+                <p class="dia-descripcion">Visita a Versalles con palacio y jardines. Tarde libre en París.</p>
+            </div>
+            
+            <div class="dia">
+                <span class="dia-numero">4</span>
+                <span class="dia-titulo">PARIS - GINEBRA - AOSTA</span>
+                <p class="dia-descripcion">Viaje a Suiza, visita a Ginebra y cruce de los Alpes hacia Italia.</p>
+            </div>
+            
+            <div class="dia">
+                <span class="dia-numero">5</span>
+                <span class="dia-titulo">AOSTA - VENECIA</span>
+                <p class="dia-descripcion">Viaje a Venecia, recorrido por la ciudad y paseo opcional en góndola.</p>
+            </div>
+        </section>
+
+        <section class="form-presupuesto">
+            <h3>Solicitar Presupuesto</h3>
+            <form>
+                <div class="form-campos">
+                    <label for="nombre">Nombres</label>
+                    <input type="text" id="nombre" placeholder="Ejemplo: Maria Jesus" required>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" placeholder="Ejemplo: Perez Martinez" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Ejemplo: direccion@gmail.com" required>
+                    <label for="ciudad">Ciudad de salida</label>
+                    <input type="text" id="ciudad" placeholder="Ejemplo: Madrid" required>
+                    <label for="personas">Número de personas</label>
+                        <select id="personas">
+                            <option value="1">1 persona</option>
+                            <option value="2">2 personas</option>
+                            <option value="3">3 personas</option>
+                            <option value="4">4 personas</option>
+                            <option value="5+">5 o más personas</option>
+                        </select>
+                    <label for="fecha">Fecha de viaje</label>
+                    <input type="month" id="fecha">
+                    <label for="info-adicinal">Informacion Adicional</label>
+                    <textarea id="info-adicinal" rows="7" placeholder="Ejemplo: Comentarios acerca de sus fechas disponibles o cualquier otra Informacion" required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Solicitar Presupuesto</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
