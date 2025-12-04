@@ -1,7 +1,7 @@
 :root {
-    --Color-prim: #1a73e8;        /* color primario */
+    --Color-prim: #1a73e8;        /* color primrio */
     --Color-sec: #f57c00;         /* color secundario */
-    --Color-letra: #202124;       /* color de texto*/
+    --Color-letra: #202124;       /* color texto*/
     --Color-claro: #f8f9fa;       /* fondos mod claro*/
     --Color-oscuro: #1f1f1f;      /* mod oscuro */
     --Color-gris: #5f6368;
@@ -32,7 +32,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Baja de linea */
 }
 
 header h1{
@@ -42,7 +42,7 @@ header h1{
 }
 
 .search-box{
-    flex-grow: 1;
+    flex-grow: 1; /* Ocupa todo su espacio */
     max-width: 500px;
 }
 
@@ -58,13 +58,13 @@ nav{
     background-color: var(--Color-prim);
     padding: 0.5rem 2rem;
     display: flex;
+    justify-content: center;
 }
 
 nav a{
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* Quita linea */
     padding: 0.5rem 1rem;
-    margin-right: 1rem;
     border-radius: 8px;
     transition: var(--transicion);
 }
@@ -89,14 +89,15 @@ nav a:hover{
 }
 
 .tarjetas{
-    gap: 1.5rem;
+    display: grid;  /* convierte en cuadricula */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 1.5rem; /* Espacio entre */
     padding: 2rem;
 }
 
 .tarjeta{
     background-color: white;
     border-radius: 8px;
-    overflow: hidden;
     box-shadow: var(--sombra);
     transition: var(--transicion);
 }
@@ -133,7 +134,7 @@ nav a:hover{
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 8px;
-    text-decoration: none;
+    text-decoration: none; /* Quita linea */
     transition: var(--transicion);
 }
 
@@ -158,14 +159,14 @@ footer nav ul{
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
-    flex-wrap: wrap;
+    gap: 1.5rem; /* Espacio entre */
+    flex-wrap: wrap; /* Baja de linea */
     padding: 0;
 }
 
 footer nav a{
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* Quita linea */
     font-size: 0.9rem;
     transition: var(--transicion);
 }
@@ -174,12 +175,13 @@ footer nav a:hover {
     color: var(--Color-sec);
 }
 
+
 @media (max-width: 768px) {
 
     header{
         flex-direction: column;
         text-align: center;
-        gap: 1rem;
+        gap: 1rem; /* Espacio entre */
         padding: 1rem;
     }
 
@@ -194,7 +196,7 @@ footer nav a:hover {
     }
 
     nav {
-        flex-wrap: wrap;
+        flex-wrap: wrap; /* Baja de linea */
         justify-content: center;
         padding: 0.5rem 1rem;
     }
@@ -216,8 +218,7 @@ footer nav a:hover {
 
     .tarjetas {
         padding: 1rem;
-        display: grid;
-        grid-template-columns: 1fr;
+        display: grid; /* convierte en cuadricula */
     }
 
     .tarjeta img {
@@ -246,7 +247,9 @@ footer nav a:hover {
     }
 
     footer nav ul {
-        flex-direction: column;
-        gap: 0.7rem;
+        flex-direction: column; /* Aplila vertical */
+        gap: 0.7rem; /* Espacio entre */
     }
+
+    
 }
