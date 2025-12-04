@@ -1,0 +1,185 @@
+{
+  "promociones": [
+    {
+      "titulo": "¡Ofertas Especiales!",
+      "descripcion": "Hasta 50% de descuento en paquetes seleccionados"
+    }
+  ],
+  "paquetes": [
+    {
+      "id": "1",
+      "titulo": "Aventura en los Alpes",
+      "descripcion_corta": "7 días de senderismo en paisajes espectaculares",
+      "imagen": "https://images.unsplash.com/photo-1501555088652-021faa106b9b",
+      "duracion": "7 días",
+      "dificultad": "Intermedia",
+      "precio_desde": 899,
+      "descripcion_larga": "Vive una experiencia única en los Alpes Suizos. Trekking por montañas, lagos cristalinos y pueblos alpinos tradicionales. Incluye guía especializado, alojamiento en refugios de montaña y equipo técnico.",
+      "paises": ["Suiza", "Francia"],
+      "grupo": "10-15 personas",
+      "itinerario": [
+        {"dia": 1, "titulo": "Llegada a Zurich", "descripcion": "Recepción en aeropuerto, traslado al hotel y reunión informativa."},
+        {"dia": 2, "titulo": "Zurich - Interlaken", "descripcion": "Viaje a Interlaken, trekking por lagos Thun y Brienz."},
+        {"dia": 3, "titulo": "Jungfraujoch", "descripcion": "Ascenso al Top of Europe, vistas panorámicas de glaciares."},
+        {"dia": 4, "titulo": "Zermatt", "descripcion": "Trekking al Matterhorn, visita a pueblos alpinos."},
+        {"dia": 5, "titulo": "Ginebra", "descripcion": "Día libre en Ginebra, opcional visita a Chamonix."},
+        {"dia": 6, "titulo": "Lago Leman", "descripcion": "Actividades acuáticas y trekking suave por viñedos."},
+        {"dia": 7, "titulo": "Regreso", "descripcion": "Desayuno y traslado al aeropuerto."}
+      ]
+    },
+    {
+      "id": "2",
+      "titulo": "Playa Caribeña",
+      "descripcion_corta": "Relájate en playas de arena blanca",
+      "imagen": "https://images.unsplash.com/photo-1672841828459-bc913fdcd995?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGxheWElMjB0cm9waWNhbHxlbnwwfHwwfHx8MA%3D%3D",
+      "duracion": "5 días",
+      "dificultad": "Fácil",
+      "precio_desde": 650,
+      "descripcion_larga": "Escape perfecto a las playas del Caribe Mexicano. Todo incluido en resort 5 estrellas con acceso a playa privada, spa, y actividades acuáticas.",
+      "paises": ["México"],
+      "grupo": "Individual o grupos",
+      "itinerario": [
+        {"dia": 1, "titulo": "Llegada a Cancún", "descripcion": "Traslado al resort, check-in y tiempo libre."},
+        {"dia": 2, "titulo": "Día de Playa", "descripcion": "Relajación en playa privada, snorkel y deportes acuáticos."},
+        {"dia": 3, "titulo": "Excursión a Isla Mujeres", "descripcion": "Tour en catamarán, snorkel con tortugas y comida incluida."},
+        {"dia": 4, "titulo": "Día Libre", "descripcion": "Spa, compras o excursión opcional a Chichen Itzá."},
+        {"dia": 5, "titulo": "Regreso", "descripcion": "Última mañana en la playa, traslado al aeropuerto."}
+      ]
+    },
+    {
+      "id": "3",
+      "titulo": "Roma Clásica",
+      "descripcion_corta": "Descubre la historia del Imperio Romano",
+      "imagen": "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
+      "duracion": "4 días",
+      "dificultad": "Fácil",
+      "precio_desde": 550,
+      "descripcion_larga": "Tour cultural por la Ciudad Eterna. Visita los monumentos más emblemáticos del Imperio Romano con guías especializados en historia.",
+      "paises": ["Italia"],
+      "grupo": "8-20 personas",
+      "itinerario": [
+        {"dia": 1, "titulo": "Llegada a Roma", "descripcion": "Traslado al hotel, tarde libre en Plaza España."},
+        {"dia": 2, "titulo": "Coliseo y Foro", "descripcion": "Visita guiada al Coliseo, Foro Romano y Monte Palatino."},
+        {"dia": 3, "titulo": "Ciudad del Vaticano", "descripcion": "Museos Vaticanos, Capilla Sixtina y Basílica de San Pedro."},
+        {"dia": 4, "titulo": "Fontana y Regreso", "descripcion": "Visita a Fontana di Trevi, Panteón y traslado al aeropuerto."}
+      ]
+    },
+    {
+      "id": "4",
+      "titulo": "Selva Amazónica",
+      "descripcion_corta": "Aventura única en el pulmón del planeta",
+      "imagen": "https://images.unsplash.com/photo-1448375240586-882707db888b",
+      "duracion": "6 días",
+      "dificultad": "Avanzada",
+      "precio_desde": 1100,
+      "descripcion_larga": "Expedición por la Amazonía Peruana. Observación de fauna, navegación por ríos, visitas a comunidades nativas y alojamiento en lodges ecológicos.",
+      "paises": ["Perú", "Brasil"],
+      "grupo": "6-12 personas",
+      "itinerario": [
+        {"dia": 1, "titulo": "Iquitos - Lodge", "descripcion": "Vuelo a Iquitos, traslado en bote al lodge amazónico."},
+        {"dia": 2, "titulo": "Exploración Diurna", "descripcion": "Caminata por la selva, observación de monos y aves exóticas."},
+        {"dia": 3, "titulo": "Río Amazonas", "descripcion": "Navegación por el río, pesca de pirañas y visita a delfines rosados."},
+        {"dia": 4, "titulo": "Comunidad Nativa", "descripcion": "Visita a comunidad local, aprendizaje de tradiciones."},
+        {"dia": 5, "titulo": "Canopy y Noche", "descripcion": "Paseo por canopy, caminata nocturna para observar fauna."},
+        {"dia": 6, "titulo": "Regreso", "descripcion": "Última mañana en la selva, retorno a Iquitos y vuelo de regreso."}
+      ]
+    },
+    {
+      "id": "5",
+      "titulo": "Tour por París y la Costa Azul",
+      "descripcion_corta": "10 días de romance francés desde París hasta Niza",
+      "imagen": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+      "duracion": "10 días / 9 noches",
+      "dificultad": "Fácil",
+      "precio_desde": 1450,
+      "descripcion_larga": "Recorre lo mejor de Francia: la elegancia de París, los viñedos de Borgoña, la Provenza y el glamour de la Costa Azul. Incluye entradas a monumentos, catas de vino y transporte en tren de alta velocidad.",
+      "paises": ["Francia"],
+      "grupo": "12-25 personas",
+      "itinerario": [
+        {"dia": 1, "titulo": "Llegada a París", "descripcion": "Traslado al hotel, tarde libre para primer contacto con la Ciudad de la Luz."},
+        {"dia": 2, "titulo": "París Monumental", "descripcion": "Visita a Torre Eiffel (2º piso), Arco del Triunfo, Campos Elíseos y crucero por el Sena."},
+        {"dia": 3, "titulo": "Museos de París", "descripcion": "Museo del Louvre (entrada incluida), Museo de Orsay y barrio de Montmartre."},
+        {"dia": 4, "titulo": "Versalles", "descripcion": "Excursión al Palacio de Versalles con guía, jardines y Galería de los Espejos."},
+        {"dia": 5, "titulo": "TGV a Lyon", "descripcion": "Viaje en tren de alta velocidad a Lyon, tour gastronómico por la ciudad."},
+        {"dia": 6, "titulo": "Ruta del Vino", "descripcion": "Tour por viñedos de Borgoña con cata de vinos y visita a bodegas."},
+        {"dia": 7, "titulo": "Aviñón y Provenza", "descripcion": "Palacio de los Papas en Aviñón, campos de lavanda y pueblos provenzales."},
+        {"dia": 8, "titulo": "Costa Azul", "descripcion": "Llegada a Niza, paseo por el Promenade des Anglais y Vieux Nice."},
+        {"dia": 9, "titulo": "Mónaco y Cannes", "descripcion": "Excursión a Mónaco (casino, palacio) y Cannes (Paseo de la Croisette)."},
+        {"dia": 10, "titulo": "Regreso", "descripcion": "Mañana libre en Niza, traslado al aeropuerto y vuelo de regreso."}
+      ]
+    },
+    {
+      "id": "6",
+      "titulo": "Aventura en Islandia - Aurora Boreal",
+      "descripcion_corta": "8 días de paisajes volcánicos, géiseres y auroras boreales",
+      "imagen": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+      "duracion": "8 días / 7 noches",
+      "dificultad": "Intermedia",
+      "precio_desde": 1800,
+      "descripcion_larga": "Expedición por los paisajes más espectaculares de Islandia: glaciares, cascadas, géiseres y búsqueda de auroras boreales. Incluye baños en aguas termales, visitas a glaciares y guía especializado.",
+      "paises": ["Islandia"],
+      "grupo": "8-16 personas",
+      "itinerario": [
+        {"dia": 1, "titulo": "Llegada a Reikiavik", "descripcion": "Traslado al hotel, breve tour por Reikiavik y cena de bienvenida."},
+        {"dia": 2, "titulo": "Círculo Dorado", "descripcion": "Parque Nacional Thingvellir, géiser Strokkur, cascada Gullfoss y Laguna Secreta."},
+        {"dia": 3, "titulo": "Costa Sur", "descripcion": "Cascadas Seljalandsfoss y Skógafoss, playa negra de Vik y acantilados."},
+        {"dia": 4, "titulo": "Glaciares y Laguna", "descripcion": "Parque Nacional Skaftafell, trekking en glaciar y Laguna Glaciar Jökulsárlón."},
+        {"dia": 5, "titulo": "Fiordos del Este", "descripcion": "Pueblos pesqueros, fiordos escénicos y observación de frailecillos (temporada)."},
+        {"dia": 6, "titulo": "Norte de Islandia", "descripcion": "Lago Mývatn, baños termales, pseudo-cráteres y cascada Godafoss."},
+        {"dia": 7, "titulo": "Península de Snæfellsnes", "descripcion": "Glaciar Snæfellsjökull, pueblos costeros y búsqueda de auroras boreales."},
+        {"dia": 8, "titulo": "Regreso", "descripcion": "Mañana libre en Reikiavik, visita al museo y traslado al aeropuerto."}
+      ]
+    },
+    {
+      "id": "7",
+      "titulo": "Tour por Japón Tradicional y Moderno",
+      "descripcion_corta": "12 días desde Tokio a Kioto pasando por el Monte Fuji",
+      "imagen": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9",
+      "duracion": "12 días / 11 noches",
+      "dificultad": "Intermedia",
+      "precio_desde": 2200,
+      "descripcion_larga": "Descubre la mezcla perfecta entre tradición y modernidad en Japón. Desde el bullicio de Tokio hasta la tranquilidad de Kioto, pasando por el sagrado Monte Fuji. Incluye JR Pass, ryokans tradicionales y ceremonia del té.",
+      "paises": ["Japón"],
+      "grupo": "10-18 personas",
+      "itinerario": [
+        {"dia": 1, "titulo": "Llegada a Tokio", "descripcion": "Traslado al hotel en Shinjuku, tarde libre en el bullicioso distrito."},
+        {"dia": 2, "titulo": "Tokio Moderno", "descripcion": "Shibuya (cruce famoso), Harajuku (moda juvenil), Meiji Shrine y Shinjuku de noche."},
+        {"dia": 3, "titulo": "Tokio Tradicional", "descripcion": "Asakusa (templo Senso-ji), mercado de pescado Tsukiji, Tokyo Skytree."},
+        {"dia": 4, "titulo": "Monte Fuji y Hakone", "descripcion": "Excursión al Monte Fuji (5ª estación), crucero en lago Ashi y teleférico."},
+        {"dia": 5, "titulo": "Shinkansen a Kioto", "descripcion": "Viaje en tren bala a Kioto, check-in en ryokan tradicional."},
+        {"dia": 6, "titulo": "Kioto Imperial", "descripcion": "Palacio Imperial de Kioto, templo Kinkaku-ji (Pabellón Dorado) y ceremonia del té."},
+        {"dia": 7, "titulo": "Arashiyama y Bambú", "descripcion": "Bosque de bambú de Arashiyama, templo Tenryu-ji y puente Togetsukyo."},
+        {"dia": 8, "titulo": "Nara Excursión", "descripcion": "Templo Todai-ji con buda gigante, parque de ciervos y templo Kasuga."},
+        {"dia": 9, "titulo": "Osaka Gourmet", "descripcion": "Castillo de Osaka, distrito Dotonbori (comida callejera) y torre Umeda Sky."},
+        {"dia": 10, "titulo": "Hiroshima Histórica", "descripcion": "Memorial de la Paz, Museo de la Bomba Atómica e isla de Miyajima."},
+        {"dia": 11, "titulo": "Regreso a Tokio", "descripcion": "Último shinkansen a Tokio, compras en Akihabara o Ginza."},
+        {"dia": 12, "titulo": "Sayonara Japón", "descripcion": "Desayuno, traslado al aeropuerto Narita/Haneda y vuelo de regreso."}
+      ]
+    },
+    {
+      "id": "8",
+      "titulo": "Safari en Kenia - La Gran Migración",
+      "descripcion_corta": "9 días de safari fotográfico en los mejores parques de África",
+      "imagen": "https://images.unsplash.com/photo-1516426122078-c23e76319801",
+      "duracion": "9 días / 8 noches",
+      "dificultad": "Intermedia",
+      "precio_desde": 1950,
+      "descripcion_larga": "Experiencia única de safari en los parques nacionales más famosos de Kenia. Avistamiento de los Big Five, seguimiento de la Gran Migración (temporada) y alojamiento en lodges y campamentos de lujo con guías expertos.",
+      "paises": ["Kenia"],
+      "grupo": "6-12 personas",
+      "itinerario": [
+        {"dia": 1, "titulo": "Llegada a Nairobi", "descripcion": "Traslado al hotel, briefing informativo y cena de bienvenida africana."},
+        {"dia": 2, "titulo": "Parque Nacional Amboseli", "descripcion": "Viaje a Amboseli, safari vespertino con vistas al Kilimanjaro, elefantes."},
+        {"dia": 3, "titulo": "Amboseli Completo", "descripcion": "Safari matutino y vespertino en Amboseli, observación de manadas de elefantes."},
+        {"dia": 4, "titulo": "Lago Naivasha", "descripcion": "Viaje al lago Naivasha, paseo en bote entre hipopótamos, observación de aves."},
+        {"dia": 5, "titulo": "Reserva Masai Mara", "descripcion": "Traslado a Masai Mara, safari de introducción por la sabana."},
+        {"dia": 6, "titulo": "Mara - Safari Completo", "descripcion": "Safari de día completo en Masai Mara, búsqueda de los Big Five y depredadores."},
+        {"dia": 7, "titulo": "Gran Migración (temporada)", "descripcion": "Observación de la Gran Migración (Jul-Oct), cruce del río Mara (si temporada)."},
+        {"dia": 8, "titulo": "Visita Aldea Masai", "descripcion": "Visita cultural a aldea Masai, regreso a Nairobi por la tarde."},
+        {"dia": 9, "titulo": "Regreso a Casa", "descripcion": "Desayuno, compras de artesanía masai y traslado al aeropuerto Jomo Kenyatta."}
+      ]
+    }
+
+
+  ]
+}

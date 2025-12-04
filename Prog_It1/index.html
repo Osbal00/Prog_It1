@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <body>
+    
     <header>
         <h1>TravelGo</h1>
         <form action="" class="search-box">
@@ -15,47 +16,23 @@
     </header>
 
     <nav>
-        <a href="#">España</a>
-        <a href="#">Francia</a>
-        <a href="#">Italia</a>
-        <a href="#">Grecia</a>
-        <a href="#">Portugal</a>
-        <a href="#">Tailandia</a>
+        <a href="#" data-pais="España">España</a>
+        <a href="#" data-pais="Francia">Francia</a>
+        <a href="#" data-pais="Italia">Italia</a>
+        <a href="#" data-pais="Grecia">Grecia</a>
+        <a href="#" data-pais="Portugal">Portugal</a>
+        <a href="#" data-pais="Tailandia">Tailandia</a>
+        <a href="#" data-pais="todos" class="mostrar-todos">Mostrar todos</a>
     </nav>
 
     <main>
         <section class="promociones">
-            <h2>Ofertas Especiales de Verano</h2>
-            <p>Hasta 40% de descuento en destinos seleccionados</p>
+            <h2></h2>
+            <p></p>
         </section>
 
         <section class="tarjetas">
-            <div class="tarjeta">
-                <img src="https://www.revigorate.com/images/Mont-Blanc-Chamonix-french-alps.jpg" alt="Destino montañoso">
-                <div class="tarjeta-content">
-                    <h3>Aventura en los Alpes</h3>
-                    <p>Disfruta de 7 días de senderismo, escalada y paisajes espectaculares en los Alpes Suizos.</p>
-                    <a href="detalle-paquete.html">Ver detalles</a>
-                </div>
-            </div>
-
-            <div class="tarjeta">
-                <img src="https://images.unsplash.com/photo-1672841828459-bc913fdcd995?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGxheWElMjB0cm9waWNhbHxlbnwwfHwwfHx8MA%3D%3D" alt="Playa tropical">
-                <div class="tarjeta-content">
-                    <h3>Paraíso Caribeño</h3>
-                    <p>Relájate en las playas de arena blanca y aguas cristalinas del Caribe Mexicano.</p>
-                    <a href="detalle-paquete.html">Ver detalles</a>
-                </div>
-            </div>
             
-            <div class="tarjeta">
-                <img src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Ciudad europea">
-                <div class="tarjeta-content">
-                    <h3>Roma Clásica</h3>
-                    <p>Sumérgete en la historia del Imperio Romano con visitas guiadas a los monumentos más emblemáticos.</p>
-                    <a href="detalle-paquete.html">Ver detalles</a>
-                </div>
-            </div>
         </section>
     </main>
     
@@ -69,5 +46,7 @@
             </ul>
         </nav>
     </footer>
+    
+    <script src="Javascript/datospack.js"></script>
 </body>
 </html>
