@@ -15,7 +15,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* ??? */
 }
 
 body{
@@ -41,12 +41,12 @@ header h1{
     margin-right: 2rem;
 }
 
-.search-box{
+.busqueda{
     flex-grow: 1; /* Ocupa todo su espacio */
     max-width: 500px;
 }
 
-.search-box input{
+.busqueda input{
     width: 100%;
     padding: 0.75rem 1rem;
     border: 1px solid var(--Color-gris-claro);
@@ -89,7 +89,7 @@ nav a:hover{
 }
 
 .tarjetas{
-    display: grid;  /* convierte en cuadricula */
+    /* display: grid;  */ /* convierte en cuadricula */
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     gap: 1.5rem; /* Espacio entre */
     padding: 2rem;
@@ -113,7 +113,7 @@ nav a:hover{
     object-fit: cover;
 }
 
-.tarjeta-content{
+.tarjeta-contenido{
     padding: 1.5rem;
 }
 
@@ -129,7 +129,7 @@ nav a:hover{
 }
 
 .tarjeta a{
-    display: inline-block;
+    display: inline-block; /* En linea y mod tamaño */
     background-color: var(--Color-prim);
     color: white;
     padding: 0.5rem 1rem;
@@ -175,6 +175,25 @@ footer nav a:hover {
     color: var(--Color-sec);
 }
 
+/* Hamburguesa */
+.menu {
+    background-color: var(--Color-prim);
+    padding: 0.5rem 2rem;
+}
+
+.btn_hamb {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.menu_url {
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 768px) {
 
@@ -190,21 +209,9 @@ footer nav a:hover {
         margin-right: 0;
     }
 
-    .search-box {
+    .busqueda {
         max-width: 100%;
         margin-top: 0.5rem;
-    }
-
-    nav {
-        flex-wrap: wrap; /* Baja de linea */
-        justify-content: center;
-        padding: 0.5rem 1rem;
-    }
-
-    nav a {
-        margin: 0.3rem;
-        padding: 0.5rem 0.75rem;
-        font-size: 0.9rem;
     }
 
     .promociones {
@@ -225,7 +232,7 @@ footer nav a:hover {
         height: 180px;
     }
 
-    .tarjeta-content {
+    .tarjeta-contenido {
         padding: 1rem;
     }
 
@@ -251,5 +258,34 @@ footer nav a:hover {
         gap: 0.7rem; /* Espacio entre */
     }
 
-    
+    .menu {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn_hamb {
+        display: block; /* convierte en bloque */
+    }
+
+    .menu_url {
+        display: none;
+        flex-direction: column; 
+        align-items: center;
+        gap: 1rem; /* Espacio entre */
+        width: 100%;
+    }
+
+    .menu_url.activo {
+        display: flex;
+    }
+
+    .menu_url a {
+        padding: 0.75rem 1.5rem;
+        background-color: rgba(255,255,255,0.2);
+        border-radius: 8px;
+        width: 70%;
+        text-align: center;
+    }
 }

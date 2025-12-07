@@ -17,7 +17,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* ??? */
 }
 
 body{
@@ -56,7 +56,7 @@ body{
     background-color: #e06d00;
 }
 
-.contenido{
+main{
     max-width: 1200px;
     margin: 2rem auto;
     padding: 0 2rem;
@@ -98,7 +98,7 @@ body{
 
 .cab-info{
     display: flex;
-    gap: 2rem;
+    gap: 2rem; /* Espacio entre */
     margin-top: 1.5rem;
 }
 .cab-info ul{
@@ -145,13 +145,13 @@ body{
 }
 
 .dia:last-child{
-    border-bottom: none;
+    border-bottom: none; /* Quita linea final */
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
 .dia-numero{
-    display: inline-block; 
+    display: inline-block; /* En linea y mod tamaño */
     background-color: var(--Color-prim);
     color: white;
     width: 30px;
@@ -189,7 +189,7 @@ body{
 
 .form-campos{
     display: grid; /* convierte en cuadricula */
-    gap: 1rem;
+    gap: 1rem; /* Espacio entre */
     margin-bottom: 1.5rem;
 }
 
@@ -240,7 +240,6 @@ footer nav ul {
     display: flex;
     justify-content: center;
     gap: 1.5rem; /* Espacio entre */
-    flex-wrap: wrap; /* Baja de linea */
     padding: 0;
 }
 
@@ -269,19 +268,7 @@ footer nav a:hover {
         margin-right: 0;
     }
 
-    nav {
-        flex-wrap: wrap; /* Baja de linea */
-        justify-content: center;
-        padding: 0.5rem 1rem;
-    }
-
-    nav a {
-        margin: 0.3rem;
-        padding: 0.5rem 0.75rem;
-        font-size: 0.9rem;
-    }
-
-    .contenido {
+    main {
         padding: 0 1rem;
         margin: 1rem auto;
     }
@@ -317,10 +304,6 @@ footer nav a:hover {
 
     .dia-descripcion {
         margin-left: 1.5rem;
-    }
-
-    .form-campos {
-        grid-template-columns: 1fr;
     }
 
     .btn-enviar {
