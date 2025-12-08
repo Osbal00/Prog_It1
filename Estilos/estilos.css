@@ -33,6 +33,10 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; /* Baja de linea */
+
+    position: sticky;
+    top: 0;
+    z-index: 1001;
 }
 
 header h1{
@@ -54,12 +58,17 @@ header h1{
     font-size: 1rem;
 }
 
-nav{
+nav {
     background-color: var(--Color-prim);
     padding: 0.5rem 2rem;
+    border-radius: 8px;
+    
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
+
 
 nav a{
     color: white;

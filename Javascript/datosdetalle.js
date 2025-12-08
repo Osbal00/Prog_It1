@@ -10,6 +10,29 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         })
         .catch(err => console.log('Error:', err));
+
+    document.getElementById("presupuestoForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const nombre = document.getElementById("nombre").value;
+    const apellidos = document.getElementById("apellidos").value;
+    const email = document.getElementById("email").value;
+    const ciudad = document.getElementById("ciudad").value;
+    const personas = document.getElementById("personas").value;
+    const fecha = document.getElementById("fecha").value;
+    const info = document.getElementById("info-adicinal").value;
+
+    alert(
+      "Correo enviado\n\n" +
+      "Nombre: " + nombre + "\n" +
+      "Apellidos: " + apellidos + "\n" +
+      "Email: " + email + "\n" +
+      "Ciudad: " + ciudad + "\n" +
+      "Personas: " + personas + "\n" +
+      "Fecha: " + fecha + "\n" +
+      "Info adicional: " + info
+    );
+  });
 });
 
 function actuTodo(paquete) {
@@ -26,7 +49,7 @@ function actuTodo(paquete) {
                     <li>Países: ${paquete.paises.join(', ')}</li>
                     <li>Duración: ${paquete.duracion}</li>
                     <li>Grupo: ${paquete.grupo}</li>
-                    <li><strong>Precio desde: $${paquete.precio_desde} USD</strong></li>
+                    <li><strong>Precio desde: ${paquete.precio_desde} USD</strong></li>
                 </ul>
             </div>
         </div>
