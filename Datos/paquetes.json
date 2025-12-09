@@ -1,10 +1,9 @@
 {
-  "promociones": [
+  "promociones": 
     {
       "titulo": "¡Ofertas Especiales!",
       "descripcion": "Hasta 50% de descuento en paquetes seleccionados"
-    }
-  ],
+    },
   "paquetes": [
     {
       "id": "1",

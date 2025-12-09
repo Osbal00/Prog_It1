@@ -8,7 +8,7 @@
     --Color-gris-claro: #dadce0;
 
     --sombra: 0 2px 5px rgba(0,0,0,0.1);
-    --transicion: all 0.3s ease;  /* Tiempo de transi */
+    --transicion: all 0.3s ease;  /* lento med lento */
     --fuente: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -98,8 +98,6 @@ nav a:hover{
 }
 
 .tarjetas{
-    /* display: grid;  */ /* convierte en cuadricula */
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     gap: 1.5rem; /* Espacio entre */
     padding: 2rem;
 }
@@ -169,7 +167,6 @@ footer nav ul{
     display: flex;
     justify-content: center;
     gap: 1.5rem; /* Espacio entre */
-    flex-wrap: wrap; /* Baja de linea */
     padding: 0;
 }
 

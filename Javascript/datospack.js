@@ -4,15 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('Datos/paquetes.json') /* Obtiene respuesta */
         .then(res => res.json())
         .then(datos => {
-            if (datos.promociones && datos.promociones.length > 0) { /* si existe y mas de 0 */
-                const promo = datos.promociones[0];
-                document.querySelector('.promociones h2').textContent = promo.titulo;
-                document.querySelector('.promociones p').textContent = promo.descripcion;
-            }
             todosPaquetes = datos.paquetes;
             mostrarPaquetes(todosPaquetes);
             configurarBusqueda(todosPaquetes);
             configurarFiltrosPais(todosPaquetes);
+            const promo = datos.promociones;
+            mostrarpromocion(promo);
         })
         .catch(err => console.log('Error:', err));
 
@@ -57,7 +54,7 @@ function configurarBusqueda(paquetes) {
             return;
         }
         
-        const resultados = paquetes.filter(p => 
+        const resultados = paquetes.filter(p =>  /* Metodo array */
             p.titulo.toLowerCase().includes(texto) ||
             p.descripcion_corta.toLowerCase().includes(texto) ||
             p.paises.some(pais => pais.toLowerCase().includes(texto))
@@ -84,7 +81,15 @@ function configurarFiltrosPais(paquetes) {
                 );
                 mostrarPaquetes(filtrados);
             }
+            document.querySelector(".menu_url").classList.remove("activo");
         });
     });
 }
 
+function mostrarpromocion(promo){
+    const conten = document.querySelector('.promociones');
+                conten.innerHTML += `
+                    <h2>${promo.titulo}</h2>
+                    <p>${promo.descripcion}</p>
+                `;
+}
